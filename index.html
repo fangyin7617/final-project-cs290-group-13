@@ -5,7 +5,7 @@
     <title>Code Blog</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
@@ -28,29 +28,135 @@
     <main class="main-page">
       <div class="title-container">
         <h2>Select codes of project</h2>
+    </div>
         <div class="project-card">
-            <a>CS_290 Assignment_1</a>
-            <button type="button" id="add-new-post"><i class="fa fa-plus"></i></button>
+            <div class="project-header">
+                <a>CS_290 Assignment_1</a>
+                <button type="button" id="expand-post"><i class="fa fa-plus"></i></button>
+                <button type="button" id="close-post"><i class="fa fa-minus"></i></button>
+            </div>
+            
+    
+            <!-- sub posts here, and hide it -->
+            <div id="posts-backdrop" class="hidden"></div>
+            <div id="posts" class="hidden">
+            <div class="posts-dialog">
+            
 
-            <!-- Need to make sub posts here, and hide it -->
+            <div class="post-header">
+                <h3><a href="A1/README.md"> README.md</a></h3>
+                <div class="img-container">
+                <img class="code-img" src="./codes/README.md" />
+                </div>
+            </div>    
+            <div class="post-header">
+            <h3><a href="A1/index.html">index.html</a></h3>
+            <div class="img-container">
+                    <img class="code-img" src="./codes/index.html" />
+                </div>
+            </div>
+
+            <div class="post-header">
+                <h3><a href="A1/index.html">blog.html</a></h3>
+                <div class="img-container">
+                    <img class="code-img" src="./codes/blog.html" />
+                </div>
+               </div> 
+        
+        
+        
+            
+            </div>
+            </div>
         </div>
 
         <div class="project-card">
-            <a>CS_290 Assignment_2</a>
-            <button type="button" id="add-new-post"><i class="fa fa-plus"></i></button>
+            <div class="project-header">
+                <a>CS_290 Assignment_2</a>
+                <button type="button" id="expand-post"><i class="fa fa-plus"></i></button>
+                <button type="button" id="close-post"><i class="fa fa-minus"></i></button>
+            </div>
+            
+
+
+                <div class="post-header">
+                        <h3><a href="A2/README.md"> README.md</a></h3>
+                        <div class="img-container">
+                        <img class="code-img" src="./codes/README.md" />
+                        </div>
+                </div>    
+                <div class="post-header">
+                        <h3><a href="A2/index.html">index.html</a></h3>
+                <div class="img-container">
+                        <img class="code-img" src="./codes/index.html" />
+                    </div>
+                </div>
+    
+                <div class="post-header">
+                        <h3><a href="A2/style.css">style.css</a></h3>
+                    <div class="img-container">
+                        <img class="code-img" src="./codes/style.css" />
+                    </div>
+                </div>
+            
+            
+            
+                
+
+
         </div>
 
         <div class="project-card">
-            <a>CS_290 Assignment_3</a>
-            <button type="button" id="add-new-post"><i class="fa fa-plus"></i></button>
+            <div class="project-header">
+                <a>CS_290 Assignment_3</a>
+                <button type="button" id="expand-post"><i class="fa fa-plus"></i></button>
+                <button type="button" id="close-post"><i class="fa fa-minus"></i></button>
+            </div>
+            
+
+
+                <div class="post-header">
+                        <h3><a href="A3/README.md"> README.md</a></h3>
+                        <div class="img-container">
+                        <img class="code-img" src="./codes/README.md" />
+                    </div>
+                </div>
+                <div class="post-header">
+                        <h3><a href="A3/index.html">index.html</a></h3>
+                        <div class="img-container">
+                        <img class="code-img" src="./codes/index.html" />
+                        </div>
+                </div>
+    
+                <div class="post-header">
+                        <h3><a href="A3/style.css">style.css</a></h3>
+                        <div class="img-container">
+                        <img class="code-img" src="./codes/style.css" />
+                         </div>
+                </div>
+            
+                <div class="post-header">
+                    <h3><a href="A3/index.js">index.js</a></h3>
+                        <div class="img-container">
+                            <img class="code-img" src="./codes/index.js" />
+                        </div>
+                </div>
+            
+                
+
+
         </div>
       </div>
 
     </main>
 
     <!-- Search bar and new post button-->
-    <input type="search" id="search-text-input"></input>
-    <button type="button" id="search-button" class="action-button">Search</button>
+    <div class="search-bar">
+        <input type="search" id="search-text-input"></input>
+        <button type="button" id="search-button" class="action-button">Search</button>
+    </div>
+    
+    
     <button type="button" id="add-new-post"><i class="fa fa-plus"></i></button>
 
 
