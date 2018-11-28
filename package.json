@@ -1,0 +1,23 @@
+{
+  "name": "final-group-13",
+  "version": "1.0.0",
+  "description": "Final Project Group 13: Youngjoo Lee, Wyatt Deck, and Yingfeng Fang",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSU-CS290-F18/final-project-cs290-group-13.git"
+  },
+  "author": "Youngjoo Lee, Wyatt Deck, and Yingfeng Fang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSU-CS290-F18/final-project-cs290-group-13/issues"
+  },
+  "homepage": "https://github.com/OSU-CS290-F18/final-project-cs290-group-13#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
